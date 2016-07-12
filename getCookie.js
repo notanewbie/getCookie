@@ -3,7 +3,7 @@ function getCookie(Name) {
 	cookies = document.cookie.split(';');
 	for (i = 0; i < cookies.length; i++) {
 		//document.write(cookies[i] + "<br />");
-		isthere = cookies[i].indexOf(Name);
+		isthere = cookies[i].indexOf(Name + "=");
 		if (isthere != -1) {
 			//document.write("Aha! I have found it! At " + cookies[i] + "<br />");
 			right_number = i;
