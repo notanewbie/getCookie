@@ -13,3 +13,6 @@ function getCookie(Name) {
 		}
 	}
 }
+function setCookie(n, v) {
+	document.cookie = n + "=" + v + '; expires=Tue, 19 Jan 2038 04:14:07 GMT"';
+}
